@@ -2,8 +2,11 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	margin: 0;
+	background-color: #DDC49C;
+	font-family: "Microsoft JhengHei", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,12 +35,13 @@ img {
 	height: auto;
 }
 
-.container {
-	padding: 0;
-	margin: 0;
+.TekstForside {
+	text-align: center;
+	padding: 20px;
 }
 
-.bg-light {
-
+.TekstForside-paragraph {
+	text-align: center;
+	padding: 10px;
 }
 
