@@ -35,6 +35,8 @@ img {
 	height: auto;
 }
 
+
+
 .TekstForside {
 	text-align: center;
 	padding: 20px;
@@ -50,6 +52,11 @@ img {
 	padding-bottom: 10px;
 }
 
+.logo-placering {
+	left: 5%;
+	top: 15px;
+	z-index: 999999;
+}
 .nav-link {
 	color: white !important;
 }
@@ -146,6 +153,9 @@ body, html {
 		padding: 30px 350px;
 		height: 20em;
 	}
+	.navbar-nav {
+
+	}
 }
 @media only screen and (max-width: 950px) {
 	.footer .col {
@@ -174,5 +184,8 @@ body, html {
 		width: 50%;
 	}
 }
+
+
+
 
 

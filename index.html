@@ -17,28 +17,27 @@
 
 <body>
 
-
 <nav class="navbar navbar-expand-lg navbar-light bg-mørkeBrun">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <div class="container-fluid position-relative">
+        <a class="position-absolute logo-placering" href="#">
             <img src="images/Logo-Design.png" alt="" width="80">
         </a>
-        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        <button class="navbar-toggler navbar-dark ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span> <!-- Udskift med font awesome ikon -->
         </button>
         <div class="collapse navbar-collapse navbar-dark" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item text-end">
                     <a class="nav-link" aria-current="page" href="#">SHOP</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item text-end">
                     <a class="nav-link" href="#">VÆRKSTED</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item text-end">
                     <a class="nav-link" href="#">OM OS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item text-end">
                     <a class="nav-link" href="#">KONTAKT</a>
                 </li>
             </ul>
@@ -50,7 +49,7 @@
     <div class="hero-text">
         <h1 style="font-size:40px">Chokolade til enhver smag</h1>
 		<br>
-        <button>Hire me</button>
+        <button>Læs mere</button>
     </div>
 </div>
 
@@ -65,17 +64,17 @@
 
 <div class="card-group px-3">
 	<div class="row g-3">
-		<div class="col-sm-4 col-12">
+		<div class="col-sm-4 col-md-12 col-lg-4">
 			<div class="card border-0 position-relative ">
 				<img src="images/overtrukken.jpg" class="card-img-top" alt="chokolade">
 			</div>
 		</div>
-		<div class="col-sm-4 col-12">
+		<div class="col-sm-4 col-md-6 col-lg-4">
 			<div class="card border-0 position-relative ">
 				<img src="images/overtrukken.jpg" class="card-img-top" alt="chokolade">
 			</div>
 		</div>
-		<div class="col-sm-4 col-12">
+		<div class="col-sm-4 col-md-6 col-lg-4">
 			<div class="card border-0 position-relative ">
 				<img src="images/overtrukken.jpg" class="card-img-top" alt="chokolade">
 			</div>
@@ -160,6 +159,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
