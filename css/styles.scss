@@ -49,6 +49,64 @@ img {
 	padding-bottom: 10px;
 }
 
+.nav-link {
+	color: white !important;
+}
+
+body, html {
+	height: 100%;
+}
+
+.hero-image {
+	background-image: url("../images/Sweets_Candy_Chocolate_Black_background_521530_1920x1080.jpg");
+	height: 50%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.hero-text button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px 25px;
+	color: black;
+	background-color: #ddd;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hero-text button:hover {
+	background-color: #555;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
 	width: 100%;
 	position: relative;
@@ -93,6 +151,9 @@ img {
 	.contain {
 		width: 1200px;
 		margin: 0 auto;
+	}
+	.card-group {
+		padding: 25px;
 	}
 }
 @media only screen and (max-width: 950px) {
