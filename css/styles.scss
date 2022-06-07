@@ -38,11 +38,12 @@ img {
 .TekstForside {
 	text-align: center;
 	padding: 20px;
+	height: 30em;
 }
 
 .TekstForside-paragraph {
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 }
 
 .forside-omos {
@@ -60,17 +61,17 @@ body, html {
 .hero-image {
 	background-image: url("../images/Sweets_Candy_Chocolate_Black_background_521530_1920x1080.jpg");
 	height: 50%;
-	background-position: right;
+	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
 
 .hero-text {
-	text-align: center;
+	text-align: left;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 45%;
+	left: 37%;
 	transform: translate(-50%, -50%);
 	color: white;
 }
@@ -90,21 +91,6 @@ body, html {
 	background-color: #555;
 	color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer {
@@ -154,6 +140,11 @@ body, html {
 	}
 	.card-group {
 		padding: 25px;
+	}
+	.TekstForside {
+		text-align: center;
+		padding: 30px 350px;
+		height: 20em;
 	}
 }
 @media only screen and (max-width: 950px) {
