@@ -41,6 +41,11 @@ img {
 	height: 30em;
 }
 
+.TekstForside h1 {
+	font-weight: bold;
+	font-size: 26px;
+}
+
 .TekstForside-paragraph {
 	text-align: center;
 	padding: 20px;
@@ -57,6 +62,11 @@ img {
 }
 .nav-link {
 	color: white !important;
+}
+
+.navbar .nav-item a {
+	font-weight: bold;
+	font-size: 18px;
 }
 
 body, html {
@@ -106,14 +116,14 @@ body, html {
 
 .footer .col-12 p {
 	margin: 0;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 17px;
-	letter-spacing: 0.250em;
 }
 
 .footer-link {
 	color: white !important;
 	border-bottom: 2px solid #DDC49C;
+	font-weight: bold;
 }
 
 .footer-spacing {
@@ -166,7 +176,6 @@ body, html {
 	color: #FFFFFF;
 	margin: 0 0 10px;
 	padding: 0;
-	transition: ease .25s;
 }
 
 .footer-distributed p.footer-links a {
@@ -174,7 +183,6 @@ body, html {
 	line-height: 1.8;
 	text-decoration: none;
 	color: inherit;
-	transition: ease .25s;
 }
 
 .footer-distributed .footer-links a:before {
@@ -206,7 +214,6 @@ body, html {
 	text-align: center;
 	line-height: 35px;
 	margin-left: 3px;
-	transition:all .25s;
 }
 
 /* Media Queries */
