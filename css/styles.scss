@@ -35,20 +35,25 @@ img {
 	height: auto;
 }
 
+.Introtekst {
+	font-size: 50px !important;
+}
+
 .TekstForside {
 	text-align: center;
 	padding: 20px;
-	height: 30em;
 }
 
 .TekstForside h1 {
 	font-weight: bold;
 	font-size: 26px;
+	padding: 20px 0 50px 0;
 }
 
 .TekstForside-paragraph {
 	text-align: center;
 	padding: 20px;
+	font-size: 20px;
 }
 
 .forside-omos {
@@ -130,37 +135,12 @@ body, html {
 	padding: 0;
 }
 
-@media only screen and (min-width: 1280px) {
-	.contain {
-		width: 1200px;
-		margin: 0 auto;
-	}
-	.card-group {
-		padding: 25px;
-	}
-	.TekstForside {
-		text-align: center;
-		padding: 30px 350px;
-		height: 20em;
-	}
-	.hero-image {
-		height: 80%;
-	}
-	.hero-text {
-		left: 20%;
-
-	}
-	.hero-text h1 {
-		font-size: 50px !important;
-	}
-}
-
 .footer-distributed {
 	background-color: #2D0D07;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	padding: 45px 50px;
+	padding: 20px 50px;
 }
 
 .footer-distributed .footer-left p {
@@ -230,6 +210,31 @@ body, html {
 		line-height: 1.8;
 	}
 }
+
+@media only screen and (min-width: 1280px) {
+	.contain {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.card-group {
+		padding: 25px;
+	}
+	.TekstForside {
+		text-align: center;
+		padding: 30px 350px;
+	}
+	.hero-image {
+		height: 80%;
+	}
+	.hero-text {
+		left: 20%;
+
+	}
+	.hero-text h1 {
+		font-size: 50px !important;
+	}
+}
+
 
 
 
