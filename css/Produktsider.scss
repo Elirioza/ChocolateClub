@@ -108,6 +108,25 @@ body, html {
   font-size: 20px;
 }
 
+.billede-knap {
+  position: relative;
+  left: 58%;
+  bottom: 20%;
+  background: hsla(0,0%,100%,.85);
+  border: none;
+  color: #000000;
+  display: inline-block;
+  max-width: 150px;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
 .footer {
   width: 100%;
   position: relative;
@@ -215,6 +234,13 @@ body, html {
   }
   .card-group {
     padding: 50px 0 50px 0;
+  }
+
+  .billede-knap {
+    position: relative;
+    left: 73%;
+    bottom: 90%;
+    background: hsla(0,0%,100%,.85);
   }
 }
 
