@@ -35,6 +35,27 @@ img {
   height: auto;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
 .Introtekst {
   font-size: 50px !important;
 }
@@ -86,43 +107,7 @@ body, html {
   position: relative;
 }
 
-/* Kontakt form */
-.kontakttekst {
-  text-align: center;
-  font-family: 'Sora', sans-serif;
-  padding-top: 20px;
-  text-transform: uppercase;
-  color: black;
-}
 
-.container2 {
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.row2 {
-  display: block;
-}
-
-/* 2 rækker der er ved siden af hinanden. */
-.column2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-top: 6px;
-  padding: 20px;
-  color: black;
-  font-size: 1rem;
-}
-
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Slut på kontaktform */
 
 .footer {
   width: 100%;
@@ -222,6 +207,12 @@ body, html {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
 }
 
 @media only screen and (min-width: 1280px) {
