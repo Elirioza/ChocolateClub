@@ -79,47 +79,11 @@ body, html {
 
 .hero-image {
   background-image: url("../images/Sweets_Candy_Chocolate_Black_background_521530_1920x1080.jpg");
-  height: 50%;
+  height: 30%;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-
-.billede-knap {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: hsla(0,0%,100%,.85);
-  border: none;
-  color: #000000;
-  display: inline-block;
-  min-width: 260px;
-  padding: 15px 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 600;
 }
 
 .footer {
@@ -163,7 +127,7 @@ body, html {
 
 .footer-distributed p.footer-links {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   color: #FFFFFF;
   margin: 0 0 10px;
   padding: 0;
@@ -207,14 +171,6 @@ body, html {
   margin-left: 3px;
 }
 
-.omos-reorder1 {
-  order: 2;
-}
-
-.omos-reorder2 {
-  order: 1;
-}
-
 /* Media Queries */
 
 @media (max-width: 600px) {
@@ -236,21 +192,20 @@ body, html {
     margin: 0 auto;
   }
   .card-group {
-    padding: 50px 0 50px 0;
+    padding: 25px 0 50px 0;
   }
-
-  .omos-reorder1 {
-    order: 1;
+  .TekstForside {
+    text-align: center;
+    padding: 30px 350px;
   }
-
-  .omos-reorder2 {
-    order: 2;
+  .hero-image {
+    height: 80%;
   }
+  .hero-text {
+    left: 20%;
 
+  }
+  .hero-text h1 {
+    font-size: 50px !important;
+  }
 }
-
-
-
-
-
-
