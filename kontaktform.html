@@ -1,25 +1,33 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
 <!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
 <html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
     <meta charset="utf-8">
 
-    <title>Festlige produkter</title>
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Kontaktform</title>
 
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/Produktsider.css" rel="stylesheet" type="text/css">
+    <link href="css/kontaktform.css" rel="stylesheet" type="text/css">
 
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Font Awesome ikoner -->
-    <script src="https://kit.fontawesome.com/b5fb28feeb.js" crossorigin="anonymous"></script>
-
 </head>
 
+
 <body>
+
 
 <nav class="navbar navbar-expand-lg navbar-light bg-mørkeBrun py-3">
     <div class="container-fluid position-relative">
@@ -58,40 +66,27 @@
 <div class="hero-image">
 </div>
 
-<div class="TekstForside px-lg-5">
-    <h1 class="Introtekst">PRODUKTER // DET FESTLIGE</h1>
-    <p class="TekstForside-paragraph py-lg-3">Chocolate Club laver chokolade til en hver smag. Alt er udviklet og tilsmagt med kærlighed af vores tre chocolatiers. Er du til lækker kvalitets chokolade, så imødekommer det eksklusive dine behov. Det børnevenlige er også til dig med en barnlig sjæl og sidst men ikke mindst har vi fantastiske produkter til dig der har en større begivenhed i sigte. </p>
-</div>
-
-<div class="card-group px-3 px-lg-5 py-5">
-    <div class="row g-3">
-        <div class="col-sm-4 col-md-12 col-lg-4 py-4 py-lg-0">
-            <div class="card border-0 position-relative bg-lyseBrun">
-                <img src="images/Chokoladefontæne.png" class="card-img-top px-lg-2" alt="chokolade">
-                <h4 class="py-3 px-lg-2">Lej en chokoladefontæne</h4>
-                <p class="produktantal px-lg-2">1 stk.</p>
-                <span role="button" class="billede-knap">499 kr.</span>
-            </div>
-        </div>
-        <div class="col-sm-4 col-md-6 col-lg-4 py-4 py-lg-0">
-            <div class="card border-0 position-relative bg-lyseBrun">
-                <img src="images/Jordbær.png" class="card-img-top px-lg-2" alt="chokolade">
-                <h4 class="py-3">Chokolade overtrukketjordbær</h4>
-                <p class="produktantal">8 stk.</p>
-                <span role="button" class="billede-knap">99 kr.</span>
-            </div>
-        </div>
-        <div class="col-sm-4 col-md-6 col-lg-4 pb-3 py-4 py-lg-0">
-            <div class="card border-0 position-relative bg-lyseBrun">
-                <img src="images/FyldteChokolader.png" class="card-img-top px-lg-2" alt="chokolade">
-                <h4 class="py-3">Fyldte chokolader</h4>
-                <p class="produktantal">18 stk.</p>
-                <span role="button" class="billede-knap">149 kr.</span>
-            </div>
+<!-- Kontakt form -->
+<div class="container2">
+    <div class="kontakttekst">
+        <h2>Kontakt Os</h2>
+        <p>Kom forbi butikken og sig hej eller smid os en besked:</p>
+    </div>
+    <div class="row2">
+        <div class="column2">
+            <form action="">
+                <label for="navn">Navn</label>
+                <input type="text" id="navn" name="fornavn" placeholder="Dit navn...">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Din email...">
+                <label for="emne">Emne</label>
+                <textarea id="emne" name="Emne" placeholder="Skriv noget..." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </div>
 </div>
-
+<!-- Kontakt form slut -->
 
 <footer class="footer-distributed">
     <div class="footer-right">
