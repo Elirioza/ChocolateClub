@@ -6,7 +6,6 @@
 body {
   margin: 0;
   background-color: #DDC49C;
-  font-family: "Microsoft JhengHei", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,18 +41,16 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-weight: 600;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #2D0D07;
   color: white;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
+  font-weight: 600;
 }
 
 .Introtekst {
@@ -65,14 +62,12 @@ input[type=submit]:hover {
   font-weight: 600;
 }
 
-
 .kontaktformtekst h1 {
   text-align: center;
   font-weight: 600;
   font-size: 26px;
   padding: 20px 0 30px 0;
 }
-
 
 .logo-placering {
   left: 2%;
